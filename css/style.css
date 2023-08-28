@@ -42,6 +42,7 @@ body {
   font-family: 'Rubik';
   font-size: 14px;
   color: #646D70;
+  background-color: #f1f1f1;
 }
 
 /* налаштування адаптиву */
@@ -75,10 +76,47 @@ title--dark {
 }
 
 
-/* основні стилі */
+/* main */
 
 
-
+.header {
+}
+.header__container {
+}
+.header__logo {
+}
+.header__body {
+}
+.header__menu {
+}
+.menu {
+}
+.header__list {
+}
+.header__item {
+}
+.header__link {
+}
+.header__bnt {
+}
+.page {
+}
+.page__main {
+}
+.main-section {
+}
+.main-section__container {
+}
+.main-section__contant {
+}
+.main-section__label {
+}
+.main-section__title {
+}
+.main-section__video-link {
+}
+.main-section__image {
+}
 
 
 
