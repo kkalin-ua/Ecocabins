@@ -31,12 +31,51 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* шрифти */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Rubik:wght@400;500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Rubik:wght@400;500&display=swap');
 /* font-family: 'Merriweather', serif;
 font-family: 'Rubik', sans-serif; */
 
 
-/* обнулення */
+/* body */
+
+body {
+  font-family: 'Rubik';
+  font-size: 14px;
+  color: #646D70;
+}
+
+/* налаштування адаптиву */
+[class*="__container"] {
+  max-width: 840px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.wrapper {
+  min-width: 100%;
+  overflow: clip;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.page {
+  flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+title {
+  font-family: Merriweather;
+  font-size: 30px;
+  color: #fff;
+}
+title--dark {
+  color: #222F33;
+}
+
+
+/* основні стилі */
 
 
 
