@@ -3,7 +3,7 @@
 * {
   padding: 0;
   margin: 0;
-  bottom: 0;
+  border: 0;
 }
 *,
 *::before,
@@ -43,6 +43,17 @@ body {
   font-size: 14px;
   color: #646D70;
   background-color: #f1f1f1;
+  line-height: 1;
+}
+
+button {
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  color: inherit;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
 }
 
 /* налаштування адаптиву */
@@ -76,8 +87,60 @@ title--dark {
 }
 
 
-/* main */
+/* header */
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  min-height: 105px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  gap: 20px;
+  justify-content: space-between;
+}
+.header__logo {
+}
+.header__body {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
 
+}
+.header__menu {
+}
+.menu {
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
+.header__item {
+}
+.header__link {
+}
+.header__btn {
+  padding: 10px 21px;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.header__btn:hover {
+  background-color: #cdc9c9;
+  color: #fff;
+}
+/* main */
 .main-section {
   min-height: 100vh;
   position: relative;
